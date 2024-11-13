@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100Vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/image/deer_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px;
+    /* background: rgb(26, 110, 38); */
+    backdrop-filter:  blur(18px);
+
+}
+
+.container .title {
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.container .input-box input{
+    width: 100%;
+    padding: 4%;
+    background: transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10%;
+    outline: none;
+    border: solid rgba(255,255,255,0.1);
+}
+
+.input-box {
+    position: relative;
+    margin-top: 5%;
+}
+.input-box
+.user,
+.envelope,
+.lock{
+    position: absolute;
+    color: #fff;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-box .eye{
+    position: absolute;
+    color: #fff;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.input-box input::placeholder{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff
+}
+
+.btn-box .register-btn{
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.login,
+.login-account-link{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
