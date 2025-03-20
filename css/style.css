@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url("../image/deer_bg.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover; 
 }
 
