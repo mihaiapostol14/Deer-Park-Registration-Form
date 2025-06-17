@@ -3,7 +3,7 @@
 A simple registration form with HTML & CSS
 
 ## Preview
-![preview](./assets/preview.png)
+![preview](https://github.com/mihaiapostol14/Deer-Park-Registration-Form/blob/fd815d6cf4efcd505dc0efe0e79787fd1a939148/assets/preview.jpg)
 
 ## Repository Overview
 
